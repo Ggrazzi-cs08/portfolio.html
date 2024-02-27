@@ -1,0 +1,168 @@
+/*ESTILO GERAL*/
+*{
+    margin: 100;
+    padding: 100;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", sans-serif;
+
+
+}
+
+body{
+    background-color: #7cdaf9 ;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    padding: 90px;
+}
+
+/*ESTILO SOBRE*/
+header{
+    padding: 40px 4%;
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #247ba0;
+    text-decoration: none;
+    display: inline-block;
+    transition: 1s;
+}
+
+header a:hover{
+    color:  #06364D;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #094360;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #0a748fe1;
+
+}
+
+/*ESTILO TOPPO-DO-SITE*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #004173;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-do-site p{
+    color: #06364D;
+    margin: 10px 0;
+}
+
+/*ESTILO SOBRE*/
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #E8F1F2;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 60px;
+    line-height: 60px ;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #0979b0;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    color: #247ba0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #094360 ;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/*ESTILO HABILIDADES*/
+section.habilidades{
+    padding: 60px 6%;
+}
+
+section.habilidades .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-habilidades{
+    color: #146c75;
+}
+
+.sobre .txt-habilidades h2{
+    font-size: 80px;
+    line-height: 80px ;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-habilidades h2 span{
+    color: #0979b0;
+    display: block;
+}
+
+.sobre .txt-habilidades p{
+    margin: 20px 0;
+    color: #247ba0;
+    text-align: justify;
+}
+
